@@ -1,0 +1,672 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #eeeff1;
+}
+.logo img {
+    width: 126px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 358px;
+}
+nav ul {
+    font-family: Jost-SemiBold;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.68px;
+    text-align: left; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.gift-vouchers  {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px; 
+    border: none;
+    cursor: pointer;
+    font-family: Jost-Regular;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    margin-right: 100px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #eeeff1;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+.content {
+    max-width: 50%;
+}
+.content h1 {
+    width: 597px;
+    height: 420px;
+    font-family: Jost-Bold;
+    font-size: 124px;
+    font-weight: 800;
+    line-height: 140px;
+    text-align: left;  
+    margin-bottom: 30px;  
+    margin-top: 24px;
+    margin-left: 100px;  
+    margin-right: 743px;
+}
+.description {
+    color: #64646A;
+    font-family: Jost-Regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+    width: 530px;
+    height: 70px;
+    margin-left: 100px;
+    margin-right: 810px;
+}
+.buttons {
+    margin: 20px 0;
+
+}
+.buttons button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Jost-Regular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    border-radius: 500px;
+}
+.download-app {
+    background-color: #000;
+    color: #fff; 
+    font-family: Jost-Regular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 100px;
+}
+.shop-coffee {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    font-family: Jost-Regular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.01px;
+    text-align: left;
+    margin-left: 30px;
+}
+.rating {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #000;
+}
+
+.award {
+    position: relative;
+}
+
+.award img {
+    position: absolute; 
+    width: 139.94px;
+    height: 113px;
+    top: 31px;
+    left: 1067.27px;
+    margin: 20px; 
+    margin-top: -620px;
+    margin-left: 300px; 
+}
+.rating-star {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 24px;
+    text-align: center;
+    width: 272.1px;
+    height: 140px;
+    position: absolute;
+    top: 391px;
+    left: 602.76px;
+    box-sizing: border-box;
+    margin-left: 470px;
+    margin-top: 165px;
+}
+
+.star {
+    margin-bottom: 10px; 
+    margin-left:-50px;
+    margin-top: -10px;
+}
+
+.star img {
+    width: 36px;
+    height: 36px;
+}
+
+.rating {
+    color: #64646A;
+    font-family: Jost-Regular;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    width: 232px;
+    height: 52px;
+    margin-top: -5px;
+}
+
+.coffee-cup img {
+    width: 680.25px;
+    height: 712px;
+    left: 560px;
+}
+
+.content2 h1 {
+    width: 702px;
+    height: 70px;
+    font-family: Jost-Bold;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-bottom: 24px;
+    margin-top: 140px;
+}
+
+.description2 {
+    color: #64646A;
+    font-family: Jost-Regular;
+        
+    width: 604px;
+    height: 70px;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: center;
+    
+    margin-left: 420px;
+    margin-right: 420px;
+
+}
+
+.Catering{
+    width: 214px;
+    height: 52px;
+    font-family: Jost-Bold;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52.02px;
+    text-align: left;
+}
+.Alowishus{
+    width: 316px;
+    height: 70px;
+    color: #64646A;
+    font-family: Jost-Regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+}
+.Food{
+    width: 152px;
+    height: 52px;
+    font-family: Jost-Bold;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52.02px;
+    text-align: left;
+}
+.entiremenu{
+    width: 316px;
+    height: 70px;
+    color: #64646A;
+    font-family: Jost-Regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+}
+.Gelato{width: 179px;
+    height: 52px;
+    font-family: Jost-Bold;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52.02px;
+    text-align: left;
+}
+.gelato-life{
+    width: 316px;
+    height: 70px;
+    color: #64646A;
+    font-family: Jost-Regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+}
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards, .cards2, .cards3 {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    opacity: 1;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: 'Jost-SemiBold', sans-serif;
+}
+
+.button-order {
+    margin-top: 20px;
+}
+
+.content3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.coffee2 {
+    flex: 1;
+    text-align: left;
+}
+
+.coffee2 img {
+    width: 100%;
+    height: auto;
+}
+
+.text-content {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px; 
+}
+
+.text-content h1 {
+    width: 512px;
+    height: 140px;
+    font-family: Jost-Bold;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.description3 {
+    color: #64646A;
+    font-family: Jost-Regular;
+    width: 512px;
+    height: 140px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    margin-bottom: 30px;
+}
+
+.order-now {
+    background-color: #000;
+    color: #fff; 
+    font-family: Jost-Regular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+
+main {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content4 {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.profile {
+    display: none;
+    text-align: left;
+}
+
+.profile.active {
+    display: block;
+}
+
+h1 {width: 454px;
+    height: 140px;
+    font-family: Jost-Bold;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+
+}
+
+h2 {
+    width: 65px;
+    height: 40px;
+    font-family: Jost-SemiBold;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    
+}
+h3 {
+    width: 201px;
+    height: 30px;
+    font-family: Jost-SemiBold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+}
+
+.review {
+    width: 387px;
+    height: 180px;
+    font-family:Jost-Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    /* filter: grayscale(100%); */
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+.controls button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Jost-Regular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    border-radius: 500px;
+}
+
+.buttons button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Jost-Regular;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    border-radius: 500px;
+}
+
+.controls button:hover {
+    background-color: #90918d;
+}
+
+.content5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left, .right {
+    width: 45%;
+}
+
+.left h1 img {
+    width: 307px;
+    height: 122px;
+    margin-left: 100px;
+    margin-right: 1033px;
+    margin-bottom: 40px;
+}
+
+.left p {
+    width: 558px;
+    height: 160px;
+    color: #64646A;
+    font-family: Jost-Regular;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 782px;
+    margin-top:30px;
+}
+.left h2{
+    width: 296px;
+    height: 50px;
+    font-family: Jost-Bold;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.right h2{
+    width: 364px;
+    height: 50px;  
+    font-family: Jost-Bold;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;  
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 30px;;
+}
+.right h3 {
+    width: 347px;
+    height: 50px;
+    font-family: Jost-Bold;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left;
+    margin-top: 120px;
+
+
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: inherit; 
+    margin-bottom: 10px;
+}
+    
+.contact-icon {
+    margin-right: 24px;
+    width: 30px; 
+    height: 30px;
+}
+
+.contact-text {
+    width: 271px;
+    height: 44px;
+    font-family: Jost-Regular;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: #64646A; 
+    margin-top: 10px;
+}
+    
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.right .social-media {
+    margin: 10px 0;
+}
+
+.right .social-media img {
+    width: 30px;
+    margin-right: 10px;
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.subscribe input[type="email"] {
+    padding: 15px 30px;
+    width: calc(50% - 30px);
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-family: 'Jost-Regular';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    border-radius: 50px;
+    margin-top: -10px;
+}
+
+.subscribe button {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Jost-Regular';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center; 
+    margin-top: 10px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.gift-vouchers:hover {
+    background-color: #ffcc00; 
+    color: #fff; 
+    cursor: pointer; 
+}
+
+.buttons button:hover {
+    background-color: #646464;
+    color: white;
+    border: 1px solid #646464;
+    transition: background-color 0.3s, color 0.3s; 
+}
+.content2 button:hover {
+    background-color: #646464;
+    color: white;
+    border: 1px solid #646464;
+    cursor: pointer; 
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+}
+.footer-right {
+    margin-left: auto; /* Выталкивает блок вправо */
+}
+a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 5px;
+}
+a:hover {
+    text-decoration: underline;
+}
